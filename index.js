@@ -19,8 +19,9 @@ function currentLine(katzDeliLine) {
   } else {
     var i=0;
     while (i < katzDeliLine.length; {
-      i++;
+      
       return ("The line is currently: " + (i+1) + ". " + katzDeliLine[i]);
+      i++;
     }
   }
 }
