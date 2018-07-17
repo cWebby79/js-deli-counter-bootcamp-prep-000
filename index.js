@@ -9,6 +9,6 @@ function nowServing(katsDeliLine) {
   if (katsDeliLine.length === 0) {
     return "There is nobody waiting to be served!";
   } else {
-    return ("currently serving " + katsDeliLine[0]);
+    return ("Currently serving " + katsDeliLine[0]);
   }
 }
