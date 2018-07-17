@@ -12,3 +12,5 @@ function nowServing(katsDeliLine) {
     return ("Currently serving " + katsDeliLine.shift() + ".");
   }
 }
+
+function currentLine
